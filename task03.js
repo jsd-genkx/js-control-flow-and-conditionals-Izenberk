@@ -10,7 +10,7 @@ const password = "pass123";
 if (password.length < 6) {
     console.log("Too short");
 } else if (password.length <= 10) {
-    console.log("Moderate")
+    console.log("Moderate");
 } else {
     console.log("Strong");
 }
